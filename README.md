@@ -6,7 +6,7 @@ parameters. Trained on Google Colab with GPU acceleration.
 
 ---
 
-## 🤔 What is this project?
+## What is this project?
 
 This project teaches computers to recognise images.
 We train three different AI models to look at a photo and answer:
@@ -16,7 +16,7 @@ We then compare which model is the smartest, fastest, and most efficient.
 
 ---
 
-## 🖼️ What is CIFAR-10?
+## What is CIFAR-10?
 
 CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
@@ -28,7 +28,7 @@ CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
 ---
 
-## 🧠 The Three Models We Compare
+## The Three Models We Compare
 
 ### 1. SimpleNN (Basic Neural Network)
 - The simplest model — just a few layers of connected neurons
@@ -47,7 +47,7 @@ CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
 ---
 
-## ⚙️ How We Trained the Models
+## How We Trained the Models
 
 | Setting | Value | Plain English |
 |---|---|---|
@@ -59,7 +59,7 @@ CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
 ---
 
-## 📊 How We Measured Performance
+## How We Measured Performance
 
 - **Accuracy** — out of 100 images, how many did it get right?
 - **Precision** — when it says "cat", how often is it actually a cat?
@@ -70,16 +70,16 @@ CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
 ---
 
-## 🏆 What We Found
+## What We Found
 
-- ✅ TinyVGG performed the best overall
-- ✅ SimpleNN was the weakest — it cannot understand image structure
-- ✅ AlexNet proved that its 2012 innovations still work well today
-- ✅ Cat vs Dog and Car vs Truck were the hardest to get right
+- TinyVGG performed the best overall
+- SimpleNN was the weakest — it cannot understand image structure
+- AlexNet proved that its 2012 innovations still work well today
+- Cat vs Dog and Car vs Truck were the hardest to get right
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 1. Open the notebook in **Google Colab**
 2. Enable free GPU: **Runtime → Change runtime type → T4 GPU**
@@ -88,9 +88,9 @@ CIFAR-10 is a collection of **60,000 small images** split into 10 categories:
 
 ---
 
-## 📁 Files
+## Files
 ```
-├── CIFAR10_Assignment_NN_AlexNet_TinyVGG.ipynb  # The main notebook
+├── CNN(AlexNet).ipynb  # The main notebook
 └── README.md                                     # This file
 ```
 
